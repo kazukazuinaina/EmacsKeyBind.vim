@@ -2,7 +2,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 function! EmacsKeyBind#EmacsMode()
-    "imap <C-x><C-c> <Esc>:qa!<CR>
+    imap <C-p> <Up>
     imap <C-w><C-w>  <ESC>:w<CR>
 endfunction
 
